@@ -1,0 +1,41 @@
+# Gender Detection Using Machine Learning
+
+## Description
+This project predicts gender based on a persons name.
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Flask
+- HTML
+- CSS
+
+## Files
+- app.py
+- train_model.py
+- gender_dataset.csv
+- model.pkl
+- vectorizer.pkl
+
+## How to Run
+
+Install packages:
+
+pip install pandas numpy scikit-learn flask
+
+Train model:
+
+python train_model.py
+
+Run project:
+
+python app.py
+
+Open browser:
+
+http://127.0.0.1:5000
+
+## Output
+Predicts Male or Female from entered name.

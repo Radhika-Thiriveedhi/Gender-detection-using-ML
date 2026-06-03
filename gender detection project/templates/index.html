@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Gender Detection</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <h1>Gender Detection Using Machine Learning</h1>
+
+    <form method="POST">
+
+        <input type="text"
+               name="name"
+               placeholder="Enter Name"
+               required>
+
+        <button type="submit">
+            Predict
+        </button>
+
+    </form>
+
+    <h2>Prediction: {{ prediction }}</h2>
+
+    <h3>Model Accuracy: {{ accuracy }}%</h3>
+
+</body>
+
+</html>
