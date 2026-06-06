@@ -19,7 +19,7 @@ def home():
 
     if request.method == "POST":
 
-        name = request.form["name"]
+        name = request.form["name"].strip().lower()
 
         vector = vectorizer.transform([name])
 
